@@ -10,7 +10,83 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background: #fff;
 }
+/* tay css */
 
+.booking-select{
+	line-height: 3.5 ;
+	font-size: 18px !important;
+	margin-top: 25px ;
+
+}
+.choose-time{
+	display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+.cTime{
+	width: 65px;
+    height: 40px;
+    font-size: 20px;
+
+}
+.choose-time p{
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+}
+.choose-time select{
+	margin-right: 5px;
+}
+.contact-agileinfo input[type="text"]{
+	line-height: 3.5 ;
+	font-size: 18px ;
+	margin-top: 25px ;
+	padding-top: .5rem !important;
+    padding-bottom: .5rem !important;
+    padding-left: 1rem !important;
+}
+.contact-agileinfo{
+	width: auto;
+    display: flex;
+    justify-content: center;
+}
+.booking-date{
+	margin-top: 15px ;
+	margin-bottom: 15px ;
+	width: 100%;
+    height: auto;
+	border: 1px solid #ced4da;
+	font-size: 18px;
+    line-height: 3.5 !important;
+	padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+}
+.modal-header{
+	display:initial;
+}
+/* end */
+/* select2 css */
+.select2-container .select2-selection--multiple {
+	display:flex !important;
+	height: 60px;
+	justify-items: center;
+	
+}
+.services-status{
+	display:flex;
+	justify-content: space-around;
+}
+.choose-services{
+	height:60px !important;
+}
+.select2-selection__choice{
+	line-height:40px;
+    margin-top: 8px  !important;
+}
+/*  */
 body a {
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
